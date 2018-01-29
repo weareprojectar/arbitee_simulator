@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>0.header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>0.header</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>4.utils</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>3.managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>1.main</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>2.classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbiterCoinBase.h">
+      <Filter>2.classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Trader.h">
+      <Filter>2.classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure.h">
+      <Filter>1.main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>0.header</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockTestSystem.cpp">
+      <Filter>1.main</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonBase.cpp">
+      <Filter>4.utils</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>3.managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>1.main</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>2.classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ArbiterCoinBase.cpp">
+      <Filter>2.classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Trader.cpp">
+      <Filter>2.classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="0.header">
+      <UniqueIdentifier>{77834675-289c-4f27-b7c2-da4330649fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.main">
+      <UniqueIdentifier>{2832ad9f-2690-45b4-af6c-087e57a13ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.classes">
+      <UniqueIdentifier>{1cb7858b-c636-45e3-bf9b-f6fb09645098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.managers">
+      <UniqueIdentifier>{68fb2076-062f-4452-8515-af0197547187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.utils">
+      <UniqueIdentifier>{dad58337-96f7-416b-851b-1979bed04acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
