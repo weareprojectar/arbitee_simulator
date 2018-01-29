@@ -14,10 +14,7 @@ Simulator::~Simulator()
 
 void Simulator::Init()
 {
-	/*abt = new Arbiter(21000000.0f);
-	abt->SetCurrentAmount(200.0f);
-	counting = 0;
-	deltaTime = 0;*/
+	coinBase = new ArbiterCoinBase(21000000);
 
 	KEYMANAGER->init();
 }
@@ -43,8 +40,7 @@ void Simulator::Update()
 			break;
 		}*/
 
-		if (KEYMANAGER->isOnceKeyDown('P')) {
-		}
+		if (KEYMANAGER->isOnceKeyDown('P')) { system("pause"); }
 	}
 }
 

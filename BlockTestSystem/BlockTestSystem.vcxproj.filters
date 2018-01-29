@@ -26,7 +26,10 @@
       <Filter>2.classes</Filter>
     </ClInclude>
     <ClInclude Include="Configure.h">
-      <Filter>1.main</Filter>
+      <Filter>0.header</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbiter.h">
+      <Filter>2.classes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +55,9 @@
       <Filter>2.classes</Filter>
     </ClCompile>
     <ClCompile Include="Trader.cpp">
+      <Filter>2.classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbiter.cpp">
       <Filter>2.classes</Filter>
     </ClCompile>
   </ItemGroup>

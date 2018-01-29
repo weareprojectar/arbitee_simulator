@@ -2,15 +2,15 @@
 //#include "Arbiter.h"
 #include "ArbiterCoinBase.h"
 #include "Trader.h"
+#include "Arbiter.h"
 
 class Simulator
 {
 private:
-	/*Arbiter * abt;
-	int counting;
-	int deltaTime;*/
 	int day;
 	ArbiterCoinBase* coinBase;
+
+	Arbiter*		arbiter;
 	vector<Trader*> vTraders;
 
 public:

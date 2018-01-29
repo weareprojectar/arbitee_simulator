@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="Arbiter.h" />
     <ClInclude Include="ArbiterCoinBase.h" />
     <ClInclude Include="Configure.h" />
     <ClInclude Include="KeyManager.h" />
@@ -159,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
+    <ClCompile Include="Arbiter.cpp" />
     <ClCompile Include="ArbiterCoinBase.cpp" />
     <ClCompile Include="BlockTestSystem.cpp" />
     <ClCompile Include="KeyManager.cpp" />
